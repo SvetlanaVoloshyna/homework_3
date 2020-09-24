@@ -1,0 +1,104 @@
+ @font-face {
+    font-family: Pacifico;
+    src: url(./fonts/Pacifico/Pacifico-Regular.ttf);
+ }
+  
+ * {
+    box-sizing: border-box; 
+ }
+
+html,body{
+    margin: 0px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    font-family: "Pacifico";
+}
+.content{
+    padding: 10px;
+    width: 80%;
+    margin: 0px auto;
+    background-image: url(./img/pexels-lorenzo-242236.jpg);
+    width: 100%;
+    height: auto;  
+}
+.border{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+header{
+    height: auto; 
+    padding: 5px; 
+}
+.header-info{
+    display: inline-block;
+    margin: 15px; 
+    padding: 0px;
+    vertical-align:top;
+}
+h1{
+    background: linear-gradient(to right,red,blue,green,orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+}
+h3{
+    margin: 0px;
+    text-align: center;
+}
+.foto{
+    width: 100px;
+    box-shadow: 10px 10px 20px rgb(8, 8, 8);
+}
+main{
+    padding: 5px;
+}
+.main-content{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.personal-info{
+    width: 40%;
+    vertical-align:top;
+    display: inline-block;
+}
+.general-info{
+    padding-left: 5px;
+    width: 59%;
+    vertical-align: top;
+    display: inline-block;
+}
+main ul{
+    list-style: none; 
+    padding: 0px;
+}
+footer{
+    position: relative;
+    padding-left: 35px;
+    background-color: rgba(75, 61, 61, 0.3);
+    color: black;
+}
+footer p::after{
+   content: ""; 
+   background-image: url("./icon/copyright.png");
+   background-size: 20px;
+   position: absolute;
+   top: 20px;
+   left: 10px;
+   width: 20px;
+   height: 20px;
+}
+.personal-info>ul>li:hover{
+    background-color: rgba(75, 61, 61, 0.3);
+    border-radius: 2px;
+}
+a{
+    color: rgb(87, 44, 241);
+}
+a:hover{
+    color: rgb(153, 8, 15);
+}
+a:visited{
+    color: black;
+}
